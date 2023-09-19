@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	// some et p de table
-//	int T[4],V[4],i;
+//	  int T[4],V[4],i;
 //    float P,s;
 //   
 //   for(i=0;i<4;i++){
@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 //   	//s = s + T[i];
 //   	P = P + V[i]*T[i];
 //   }
-//   printf("la rest est : %f",P);
+//      printf("la rest est : %f",P);
 
  //==========================================
  
@@ -36,9 +36,9 @@ int main(int argc, char *argv[]) {
 	min=T[0];
 	for(i=1;i<10;i++){
 		if(min>T[i])
-			min=T[i];
+		 min=T[i];
 	}
-      printf("le min est :%d",min);*/
+        printf("le min est :%d",min);*/
    /*  
    
    
@@ -53,9 +53,9 @@ int main(int argc, char *argv[]) {
   	    printf("enter the values T[%d] :",i+1);
      	scanf("%d",&T[i]);
 	}
-    printf("enter ur number :");
-    scanf("%d",&n);
-    
+        printf("enter ur number :");
+        scanf("%d",&n);
+       
     int x=0;
     for(i=0;i<10;i++){
     	if(T[i]==n){
@@ -69,6 +69,28 @@ int main(int argc, char *argv[]) {
 
 	}*/
 	
-
+	/*  
+    int T[10];
+    int i,n;
+    for(i=0;i<10;i++){
+  	    printf("enter the values T[%d] :",i+1);
+     	scanf("%d",&T[i]);
+	}
+        printf("enter ur number :");
+        scanf("%d",&n);
+       
+    int x=0;
+    for(i=0;i<10;i++){
+    	if(T[i]==n){
+    		x++;
+		}
+	}
+    if(x==0){
+        printf("not found number ");
+    }else
+ 	  	printf("%d in list and  number in list is :%d",n,x);
+ 	  	*/
+ 	  	
+ 	  	
 	return 0;
 }
